@@ -1,7 +1,0 @@
-CREATE TABLE AuditLog (
-    LogID NUMBER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    TransactionID NUMBER,
-    AccountID NUMBER,
-    Action VARCHAR2(20),
-    LogTime DATE
-);
