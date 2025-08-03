@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.office-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.office-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.office-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.office-rent {
+  font-size: 18px;
+  font-weight: bold;
+}
